@@ -6,7 +6,7 @@ services:
     image: technitium/dns-server:latest
     # Use "host" network mode for DHCP deployments
     # network_mode: "host"
-    netwowk_mode: bridge
+    network_mode: bridge
     ports:
       - "5380:5380/tcp" #DNS web console
       - "53:53/udp" #DNS service
